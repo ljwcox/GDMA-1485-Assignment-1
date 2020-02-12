@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*--need to bring in a font-family--*/
+
+
+.wrapper {
+	width: 1170px;
+	margin:0 auto;
+	
+}
+
+.row {
+	overflow: auto;
+	
+	
+}
+
+.bg-black {
+	background-color: black;
+	color: white;
+	
+}
+
+
+/*--Grouped--*/
+
+.col-1-2-3:last-child {
+	float: right;
+}
+
+.col-1-2-3, .col-3 {
+	background-color:#ff7bac;
+	
+}
+/*--First row of three pink columns--*/
+
+.col-1-2-3 {
+	width: 310px;
+	padding: 30px;
+	float: left;
+	color: #fff;
+	margin-top: 30px;
+	margin-right: 15px;
+	
+}
+
+
+/*--Second Section--*/
+
+.col-1 {
+	width: 570px;
+	padding: 30px;
+	margin: 30px 0;
+	
+}
+
+.col-2 {
+	width: 570px;
+	padding: 30px;
+	margin: 0 auto;
+		
+}
+
+.col-3 {
+	width: 570px;
+	margin: 30px 0;
+	padding: 30px;
+	float: right;
+	
+}
+
+
