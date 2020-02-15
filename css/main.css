@@ -2,16 +2,60 @@
 /* CSS Document */
 
 
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-string: border-box;
+	-o-box-string: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
 
+/*--NAV bar color--*/
+.bg-drk-grn {
+	background-color:#10443f;
+	color: white;
+}
 .wrapper {
 	width: 1170px;
+	height: 730px;
 	margin:0 auto;
 	
 }
 
 .row {
 	overflow: auto;
-	
+}
+
+/*--Header colors--*/
+.bg-md-grn {
+	background-color: #104f41;
+	color: white;
+}
+
+.lime-grn-txt {
+	color: #0fdf97;
 	
 }
 
+.h3 {
+	color: #0eb493;
+	
+}
+
+/*--Second Section color--*/
+.bg-lt-grn {
+	background-color: #f4f7f9;
+	color: #000;
+}
+
+/*--Third Section Colors ? --*/
+
+/*--Footer Colors--*/
+.bg-drk-bl-grn {
+	background-color: #062033;
+}
+
+.bg-brt-green {
+	background-color: #1ea78d;
+}
